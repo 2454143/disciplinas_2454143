@@ -49,7 +49,11 @@ class DisciplinaController extends Controller
      */
     public function show(Disciplina $disciplina)
     {
-        //
+        return view('disciplinas.show',compact('disciplina'));
+
+
+        
+
     }
 
     /**
